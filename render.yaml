@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: bgb-monitor
+    env: node
+    region: singapore
+    plan: free
+    buildCommand: "npm install --prefix server"
+    startCommand: "node server/index.js"
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+
+staticPublishPath: frontend
