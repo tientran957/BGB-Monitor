@@ -1,0 +1,8 @@
+{
+  "name": "BGB Monitor",
+  "short_name": "BGBMon",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "icons": []
+}
